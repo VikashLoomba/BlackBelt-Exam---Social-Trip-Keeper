@@ -1,0 +1,21 @@
+<html ng-app="customers_app">
+<head>
+  <title>Customers | Store</title>
+  <!-- require angular -->
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+   <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular-route.min.js"></script>
+  <script type="text/javascript" src="./javascript/app.js"></script>
+  <link rel="stylesheet" href="./stylesheets/foundation.css">
+
+  <script src="./javascript/vendor/modernizr.js"></script>
+
+</head>
+<!-- everything in the body is going to use the friends controller (this gives us access to the friends controller $scope) -->
+<body>
+
+  <div ng-view="">
+
+  </div>
+  
+</body>
+</html>
